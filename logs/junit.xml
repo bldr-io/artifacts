@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Bldr.io Suite" tests="15" assertions="24" failures="0" errors="0" time="0.095010">
-    <testsuite name="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" tests="10" assertions="11" failures="0" errors="0" time="0.058500">
-      <testcase name="testConstructor" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="31" assertions="2" time="0.008607"/>
-      <testcase name="testGetDispatcher" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="55" assertions="1" time="0.000100"/>
-      <testcase name="testReadConfigException" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="66" assertions="1" time="0.000590"/>
-      <testcase name="testReadConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="89" assertions="0" time="0.009581"/>
-      <testcase name="testSetConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="116" assertions="0" time="0.000323"/>
-      <testcase name="testGetConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="127" assertions="1" time="0.001785"/>
-      <testcase name="testGetCommands" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="139" assertions="3" time="0.000626"/>
-      <testcase name="testGetDefaultHelperSet" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="155" assertions="1" time="0.000316"/>
-      <testcase name="testDoRunCommand" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="174" assertions="1" time="0.033980"/>
-      <testcase name="testGetBuildContainer" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="204" assertions="1" time="0.002592"/>
+  <testsuite name="Bldr.io Suite" tests="15" assertions="24" failures="0" errors="0" time="0.077281">
+    <testsuite name="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" tests="10" assertions="11" failures="0" errors="0" time="0.047991">
+      <testcase name="testConstructor" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="31" assertions="2" time="0.008589"/>
+      <testcase name="testGetDispatcher" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="55" assertions="1" time="0.000109"/>
+      <testcase name="testReadConfigException" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="66" assertions="1" time="0.000711"/>
+      <testcase name="testReadConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="89" assertions="0" time="0.003391"/>
+      <testcase name="testSetConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="116" assertions="0" time="0.000305"/>
+      <testcase name="testGetConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="127" assertions="1" time="0.001856"/>
+      <testcase name="testGetCommands" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="139" assertions="3" time="0.000610"/>
+      <testcase name="testGetDefaultHelperSet" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="155" assertions="1" time="0.000321"/>
+      <testcase name="testDoRunCommand" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="174" assertions="1" time="0.028075"/>
+      <testcase name="testGetBuildContainer" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="204" assertions="1" time="0.004024"/>
     </testsuite>
-    <testsuite name="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" tests="2" assertions="9" failures="0" errors="0" time="0.003831">
-      <testcase name="testInitialize" class="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" line="27" assertions="6" time="0.003258"/>
-      <testcase name="testSetTask" class="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" line="69" assertions="3" time="0.000573"/>
+    <testsuite name="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" tests="2" assertions="9" failures="0" errors="0" time="0.004404">
+      <testcase name="testInitialize" class="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" line="27" assertions="6" time="0.003772"/>
+      <testcase name="testSetTask" class="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" line="69" assertions="3" time="0.000632"/>
     </testsuite>
-    <testsuite name="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.013711">
-      <testcase name="testExecute" class="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" line="25" assertions="0" time="0.013711"/>
+    <testsuite name="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.011027">
+      <testcase name="testExecute" class="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" line="25" assertions="0" time="0.011027"/>
     </testsuite>
-    <testsuite name="Bldr\Test\Command\InitCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/InitCommandTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.018644">
-      <testcase name="testExecute" class="Bldr\Test\Command\InitCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/InitCommandTest.php" line="31" assertions="0" time="0.018644"/>
+    <testsuite name="Bldr\Test\Command\InitCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/InitCommandTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.013685">
+      <testcase name="testExecute" class="Bldr\Test\Command\InitCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/InitCommandTest.php" line="31" assertions="0" time="0.013685"/>
     </testsuite>
-    <testsuite name="Bldr\Test\Helper\DialogHelperTest" file="/Users/ascherer/Projects/bldr/tests/Helper/DialogHelperTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.000324">
-      <testcase name="testGetQuestion" class="Bldr\Test\Helper\DialogHelperTest" file="/Users/ascherer/Projects/bldr/tests/Helper/DialogHelperTest.php" line="22" assertions="4" time="0.000324"/>
+    <testsuite name="Bldr\Test\Helper\DialogHelperTest" file="/Users/ascherer/Projects/bldr/tests/Helper/DialogHelperTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.000174">
+      <testcase name="testGetQuestion" class="Bldr\Test\Helper\DialogHelperTest" file="/Users/ascherer/Projects/bldr/tests/Helper/DialogHelperTest.php" line="22" assertions="4" time="0.000174"/>
     </testsuite>
   </testsuite>
 </testsuites>
