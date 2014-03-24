@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="1.5.2">
-<file name="/Users/ascherer/Projects/bldr/src/Model/Call.php">
- <error line="39" column="5" severity="error" message="Visibility must be declared on method &quot;__construct&quot;" source="Squiz.Scope.MethodScope.Missing"/>
-</file>
-</checkstyle>
