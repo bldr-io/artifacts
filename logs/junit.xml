@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Bldr.io Suite" tests="5" assertions="5" failures="0" errors="1" time="0.092524">
+    <testsuite name="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" tests="5" assertions="5" failures="0" errors="1" time="0.092524">
+      <testcase name="testConstructor" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="31" assertions="2" time="0.035770"/>
+      <testcase name="testSetBuildName" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="51" assertions="1" time="0.041932"/>
+      <testcase name="testGetDispatcher" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="79" assertions="1" time="0.000260"/>
+      <testcase name="testReadConfigException" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="90" assertions="1" time="0.004449"/>
+      <testcase name="testReadConfig" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="113" assertions="0" time="0.010113">
+        <error type="Exception">Bldr\Test\ApplicationTest::testReadConfig
+Exception: Could not find a config file in the current directory.
+
+/home/travis/build/bldr-io/bldr/src/Application.php:193
+/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php:126
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
