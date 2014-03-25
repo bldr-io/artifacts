@@ -1,35 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Bldr.io Suite" tests="13" assertions="21" failures="0" errors="1" time="0.068555">
-    <testsuite name="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" tests="9" assertions="12" failures="0" errors="0" time="0.046164">
-      <testcase name="testConstructor" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="31" assertions="2" time="0.009105"/>
-      <testcase name="testSetBuildName" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="51" assertions="2" time="0.002224"/>
-      <testcase name="testGetDispatcher" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="79" assertions="1" time="0.000090"/>
-      <testcase name="testSetConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="97" assertions="0" time="0.000340"/>
-      <testcase name="testGetConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="108" assertions="1" time="0.000174"/>
-      <testcase name="testGetCommands" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="120" assertions="3" time="0.000615"/>
-      <testcase name="testGetDefaultHelperSet" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="136" assertions="1" time="0.000532"/>
-      <testcase name="testDoRunCommand" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="155" assertions="1" time="0.030291"/>
-      <testcase name="testGetBuildContainer" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="185" assertions="1" time="0.002793"/>
+  <testsuite name="Bldr.io Suite" tests="25" assertions="41" failures="0" errors="0" time="0.098819">
+    <testsuite name="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" tests="9" assertions="12" failures="0" errors="0" time="0.055492">
+      <testcase name="testConstructor" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="31" assertions="2" time="0.009424"/>
+      <testcase name="testSetBuildName" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="51" assertions="2" time="0.002059"/>
+      <testcase name="testGetDispatcher" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="79" assertions="1" time="0.000081"/>
+      <testcase name="testSetConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="97" assertions="0" time="0.000300"/>
+      <testcase name="testGetConfig" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="108" assertions="1" time="0.000163"/>
+      <testcase name="testGetCommands" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="120" assertions="3" time="0.000645"/>
+      <testcase name="testGetDefaultHelperSet" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="136" assertions="1" time="0.000347"/>
+      <testcase name="testDoRunCommand" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="155" assertions="1" time="0.037936"/>
+      <testcase name="testGetBuildContainer" class="Bldr\Test\ApplicationTest" file="/Users/ascherer/Projects/bldr/tests/ApplicationTest.php" line="185" assertions="1" time="0.004537"/>
     </testsuite>
-    <testsuite name="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" tests="2" assertions="9" failures="0" errors="0" time="0.006013">
-      <testcase name="testInitialize" class="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" line="27" assertions="6" time="0.005250"/>
-      <testcase name="testSetTask" class="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" line="69" assertions="3" time="0.000763"/>
+    <testsuite name="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" tests="2" assertions="9" failures="0" errors="0" time="0.005676">
+      <testcase name="testInitialize" class="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" line="27" assertions="6" time="0.004854"/>
+      <testcase name="testSetTask" class="Bldr\Test\Call\AbstractCallTest" file="/Users/ascherer/Projects/bldr/tests/Call/AbstractCallTest.php" line="69" assertions="3" time="0.000822"/>
     </testsuite>
-    <testsuite name="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" tests="2" assertions="0" failures="0" errors="1" time="0.016378">
-      <testcase name="testExecute" class="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" line="26" assertions="0" time="0.014552"/>
-      <testcase name="testExecuteCommaTasks" class="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" line="72" assertions="0" time="0.001826">
-        <error type="InvalidArgumentException">Bldr\Test\Command\BuildCommandTest::testExecuteCommaTasks
-InvalidArgumentException: The "tasks" argument does not exist.
-
-/Users/ascherer/Projects/bldr/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:204
-/Users/ascherer/Projects/bldr/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:143
-/Users/ascherer/Projects/bldr/vendor/symfony/console/Symfony/Component/Console/Input/Input.php:61
-/Users/ascherer/Projects/bldr/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:234
-/Users/ascherer/Projects/bldr/vendor/symfony/console/Symfony/Component/Console/Tester/CommandTester.php:80
-/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php:115
-</error>
-      </testcase>
+    <testsuite name="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" tests="4" assertions="2" failures="0" errors="0" time="0.016776">
+      <testcase name="testExecute" class="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" line="26" assertions="0" time="0.011939"/>
+      <testcase name="testExecuteCommaTasks" class="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" line="72" assertions="0" time="0.001713"/>
+      <testcase name="testExecuteMultipleServices" class="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" line="121" assertions="1" time="0.001697"/>
+      <testcase name="testExecuteNoServices" class="Bldr\Test\Command\BuildCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/BuildCommandTest.php" line="170" assertions="1" time="0.001427"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Command\InitCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/InitCommandTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.014072">
+      <testcase name="testExecute" class="Bldr\Test\Command\InitCommandTest" file="/Users/ascherer/Projects/bldr/tests/Command/InitCommandTest.php" line="32" assertions="0" time="0.014072"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\ConfigTest" file="/Users/ascherer/Projects/bldr/tests/ConfigTest.php" tests="4" assertions="7" failures="0" errors="0" time="0.005860">
+      <testcase name="testCreate" class="Bldr\Test\ConfigTest" file="/Users/ascherer/Projects/bldr/tests/ConfigTest.php" line="24" assertions="4" time="0.005411"/>
+      <testcase name="testIsTypeAllowedException" class="Bldr\Test\ConfigTest" file="/Users/ascherer/Projects/bldr/tests/ConfigTest.php" line="44" assertions="1" time="0.000135"/>
+      <testcase name="testCheckForFileException" class="Bldr\Test\ConfigTest" file="/Users/ascherer/Projects/bldr/tests/ConfigTest.php" line="52" assertions="1" time="0.000161"/>
+      <testcase name="testGetFileException" class="Bldr\Test\ConfigTest" file="/Users/ascherer/Projects/bldr/tests/ConfigTest.php" line="60" assertions="1" time="0.000153"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Helper\DialogHelperTest" file="/Users/ascherer/Projects/bldr/tests/Helper/DialogHelperTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.000139">
+      <testcase name="testGetQuestion" class="Bldr\Test\Helper\DialogHelperTest" file="/Users/ascherer/Projects/bldr/tests/Helper/DialogHelperTest.php" line="22" assertions="4" time="0.000139"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Model\CallTest" file="/Users/ascherer/Projects/bldr/tests/Model/CallTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.000497">
+      <testcase name="testMagicSet" class="Bldr\Test\Model\CallTest" file="/Users/ascherer/Projects/bldr/tests/Model/CallTest.php" line="25" assertions="0" time="0.000126"/>
+      <testcase name="testMagicGet" class="Bldr\Test\Model\CallTest" file="/Users/ascherer/Projects/bldr/tests/Model/CallTest.php" line="38" assertions="1" time="0.000095"/>
+      <testcase name="testHas" class="Bldr\Test\Model\CallTest" file="/Users/ascherer/Projects/bldr/tests/Model/CallTest.php" line="48" assertions="2" time="0.000276"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Model\TaskTest" file="/Users/ascherer/Projects/bldr/tests/Model/TaskTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.000307">
+      <testcase name="testConstructor" class="Bldr\Test\Model\TaskTest" file="/Users/ascherer/Projects/bldr/tests/Model/TaskTest.php" line="22" assertions="4" time="0.000307"/>
     </testsuite>
   </testsuite>
 </testsuites>
