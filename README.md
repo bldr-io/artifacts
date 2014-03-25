@@ -1,1 +1,1 @@
-[Coverage History](https://rawgithub.com/bldr-io/artifacts/local_bldr-io_bldr_2014-03-24_22-25-15/coverage/index.html)
+[Coverage History](https://rawgithub.com/bldr-io/artifacts/local_bldr-io_bldr_2014-03-24_22-30-33/coverage/index.html)
