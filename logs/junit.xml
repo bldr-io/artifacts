@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Bldr.io Suite" tests="19" assertions="35" failures="0" errors="0" time="0.938868">
+    <testsuite name="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" tests="9" assertions="11" failures="0" errors="0" time="0.591016">
+      <testcase name="testConstructor" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="31" assertions="2" time="0.060682"/>
+      <testcase name="testSetBuildName" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="51" assertions="1" time="0.072427"/>
+      <testcase name="testGetDispatcher" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="79" assertions="1" time="0.000491"/>
+      <testcase name="testSetConfig" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="97" assertions="0" time="0.002276"/>
+      <testcase name="testGetConfig" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="108" assertions="1" time="0.000724"/>
+      <testcase name="testGetCommands" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="120" assertions="3" time="0.013422"/>
+      <testcase name="testGetDefaultHelperSet" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="136" assertions="1" time="0.002515"/>
+      <testcase name="testDoRunCommand" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="155" assertions="1" time="0.417651"/>
+      <testcase name="testGetBuildContainer" class="Bldr\Test\ApplicationTest" file="/home/travis/build/bldr-io/bldr/tests/ApplicationTest.php" line="185" assertions="1" time="0.020828"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Call\AbstractCallTest" file="/home/travis/build/bldr-io/bldr/tests/Call/AbstractCallTest.php" tests="2" assertions="9" failures="0" errors="0" time="0.088873">
+      <testcase name="testInitialize" class="Bldr\Test\Call\AbstractCallTest" file="/home/travis/build/bldr-io/bldr/tests/Call/AbstractCallTest.php" line="27" assertions="6" time="0.078158"/>
+      <testcase name="testSetTask" class="Bldr\Test\Call\AbstractCallTest" file="/home/travis/build/bldr-io/bldr/tests/Call/AbstractCallTest.php" line="69" assertions="3" time="0.010715"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Command\BuildCommandTest" file="/home/travis/build/bldr-io/bldr/tests/Command/BuildCommandTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.129756">
+      <testcase name="testExecute" class="Bldr\Test\Command\BuildCommandTest" file="/home/travis/build/bldr-io/bldr/tests/Command/BuildCommandTest.php" line="26" assertions="0" time="0.129756"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Command\InitCommandTest" file="/home/travis/build/bldr-io/bldr/tests/Command/InitCommandTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.100904">
+      <testcase name="testExecute" class="Bldr\Test\Command\InitCommandTest" file="/home/travis/build/bldr-io/bldr/tests/Command/InitCommandTest.php" line="32" assertions="0" time="0.100904"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\ConfigTest" file="/home/travis/build/bldr-io/bldr/tests/ConfigTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.019460">
+      <testcase name="testCreate" class="Bldr\Test\ConfigTest" file="/home/travis/build/bldr-io/bldr/tests/ConfigTest.php" line="24" assertions="4" time="0.019460"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Helper\DialogHelperTest" file="/home/travis/build/bldr-io/bldr/tests/Helper/DialogHelperTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.000805">
+      <testcase name="testGetQuestion" class="Bldr\Test\Helper\DialogHelperTest" file="/home/travis/build/bldr-io/bldr/tests/Helper/DialogHelperTest.php" line="22" assertions="4" time="0.000805"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Model\CallTest" file="/home/travis/build/bldr-io/bldr/tests/Model/CallTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.006186">
+      <testcase name="testMagicSet" class="Bldr\Test\Model\CallTest" file="/home/travis/build/bldr-io/bldr/tests/Model/CallTest.php" line="25" assertions="0" time="0.000364"/>
+      <testcase name="testMagicGet" class="Bldr\Test\Model\CallTest" file="/home/travis/build/bldr-io/bldr/tests/Model/CallTest.php" line="38" assertions="1" time="0.000589"/>
+      <testcase name="testHas" class="Bldr\Test\Model\CallTest" file="/home/travis/build/bldr-io/bldr/tests/Model/CallTest.php" line="48" assertions="2" time="0.005233"/>
+    </testsuite>
+    <testsuite name="Bldr\Test\Model\TaskTest" file="/home/travis/build/bldr-io/bldr/tests/Model/TaskTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.001869">
+      <testcase name="testConstructor" class="Bldr\Test\Model\TaskTest" file="/home/travis/build/bldr-io/bldr/tests/Model/TaskTest.php" line="22" assertions="4" time="0.001869"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
